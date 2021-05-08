@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+body{
+  font-family: 'Balsamiq Sans', cursive;
+  background: #202124;
+  color: #fff;
+  //overflow: hidden;
+}
+
+.MainHeader{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.Search{
+  position: relative;
+  padding-top: 5%;
+  margin: 0;
+  text-align: center;
+}
+
+.Content{
+  padding-top: 5%;
+  padding-bottom: 2%;
+  text-align: center;
+  justify-content: center;
+  display: none;
+}
