@@ -34,30 +34,21 @@ function App() {
   }
 
   const Extra = <div>
-    <Icon name='user' />{User.followers} Followers
+   <a href={"https://github.com/" + Username }> <Icon name='user' />{User.followers} Followers</a>
   </div>
-/*
-  useEffect(() => {
-    document.addEventListener("keydown", (event) => {
-      if (event.keyCode === 13) {
-        handleClick(";-;");
-      }
-    })
-  }, [])
-*/
   return (
     <div>
       <ToastContainer />
       <div className={Styles.MainHeader}>
-        <Header center aligned inverted size="large">GitHub Stats
-          <Header.Subheader center={true} aligned={true} inverted={true}>Get anyone's GitHub stats easier in just an single click!</Header.Subheader>
+        <Header center aligned={true} inverted size="large">GitHub Stats
+          <Header.Subheader center aligned={true} inverted>Get anyone's GitHub stats easier in just an single click!</Header.Subheader>
         </Header>
       </div>
 
       <div className={Styles.Search}>
-        <Input disabled={Searching ? true : false} loading={Searching ? true : false} icon placeholder='GreenTreeTeam'>
+        <Input disabled={Searching ? true : false} loading={Searching ? true : false} icon={true} placeholder='GreenTreeTeam'>
           <input onChange={(e) => setUsername(e.target.value)} />
-          <Icon loading={Searching ? true : false} disabled={Searching ? true : false} name='search' inverted={true} circular={true} link={true} onClick={handleClick} />
+          <Icon loading={Searching ? true : false} disabled={Searching ? true : false} name='search' inverted circular={true} link={true} onClick={handleClick} />
         </Input>
       </div>
 
