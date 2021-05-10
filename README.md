@@ -65,9 +65,9 @@ To get a local copy up and running follow these simple steps.
    ```
    
 3.Start the app  
-   ```sh
-   yarn start
-   ```
+  ```sh
+  yarn start
+  ```
    
 ## Usage
 Visit [localhost:3000](http://localhost:3000) to view the webpage
