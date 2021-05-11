@@ -42,7 +42,7 @@ Get Github stats of any user in just one click
 
 ## About The Project
 
-![Screenshot](https://github.com/GreenTreeTeam/ChillingMusic/blob/master/images/screenshot.png)
+![Screenshot](https://media.discordapp.net/attachments/750361125484232885/841517467293843476/unknown.png)
 
 ### Built With
 
