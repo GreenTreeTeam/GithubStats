@@ -2,10 +2,11 @@ export default async function GetUserDetails(username: string) {
     let reqURl = `https://api.github.com/users/${encodeURIComponent(username)}`;
     let userReq = await fetch(reqURl);
 
-    if (userReq.status === 404) return {
-        error: true,
-        stack: "User Not Found"
-    };
+    if (userReq.status === 404)
+        return {
+            error: true,
+            stack: "User Not Found",
+        };
 
     let userJSON: GithubUser = await userReq.json();
     return userJSON;

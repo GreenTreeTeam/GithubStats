@@ -46,8 +46,8 @@ Get Github stats of any user in just one click
 
 ### Built With
 
-* [Semantic UI <3](https://semantic-ui.com/)
-* [SCSS](https://sass-lang.com/)
+-   [Semantic UI <3](https://semantic-ui.com/)
+-   [SCSS](https://sass-lang.com/)
 
 ## Getting Started
 
@@ -56,22 +56,24 @@ To get a local copy up and running follow these simple steps.
 ### Installation
 
 1. Clone the repo
-   ```sh
-   git clone https://github.com/GreenTreeTeam/GithubStats.git
-   ```
+    ```sh
+    git clone https://github.com/GreenTreeTeam/GithubStats.git
+    ```
 2. Install NPM packages
-   ```sh
-   yarn
-   ```
 
- 3.Start the app  
-  ```sh
-    yarn start
+    ```sh
+    yarn
+    ```
+
+    3.Start the app
+
+```sh
+  yarn start
 ```
-   
-## Usage
-Visit [localhost:3000](http://localhost:3000) to view the webpage
 
+## Usage
+
+Visit [localhost:3000](http://localhost:3000) to view the webpage
 
 ## Roadmap
 
