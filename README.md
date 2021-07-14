@@ -46,8 +46,8 @@ Get Github stats of any user in just one click
 
 ### Built With
 
--   [Semantic UI <3](https://semantic-ui.com/)
--   [SCSS](https://sass-lang.com/)
+- [Semantic UI <3](https://semantic-ui.com/)
+- [SCSS](https://sass-lang.com/)
 
 ## Getting Started
 
@@ -56,16 +56,16 @@ To get a local copy up and running follow these simple steps.
 ### Installation
 
 1. Clone the repo
-    ```sh
-    git clone https://github.com/GreenTreeTeam/GithubStats.git
-    ```
+   ```sh
+   git clone https://github.com/GreenTreeTeam/GithubStats.git
+   ```
 2. Install NPM packages
 
-    ```sh
-    yarn
-    ```
+   ```sh
+   yarn
+   ```
 
-    3.Start the app
+   3.Start the app
 
 ```sh
   yarn start
@@ -77,11 +77,14 @@ Visit [localhost:3000](http://localhost:3000) to view the webpage
 
 ## Roadmap
 
-See the [open issues](https://github.com/GreenTreeTeam/GithubStats/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/GreenTreeTeam/GithubStats/issues) for a
+list of proposed features (and known issues).
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to
+be learn, inspire, and create. Any contributions you make are **greatly
+appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
